@@ -1,0 +1,105 @@
+body {
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 1px 0 0 rgb(204, 202, 202);
+    padding: 5%;
+    position: relative;
+    background-color: rgb(247, 245, 245);
+}
+
+.header h1 {
+    animation: pulse;
+    animation-duration: 1s;
+}
+
+.header img {
+    width: 10%;
+    border-radius: 50%;
+    height: 80px;
+    margin: 70px auto;
+    
+}
+
+.section-1 {
+    width: 100%;
+}
+
+.section-1 .left-sec {
+    width: 30%;
+    float: left;
+    background-color: rgb(247, 245, 245);
+    padding: 6% 0% 2%;
+    box-shadow: 0 0 5px 0 rgb(204, 202, 202);
+}
+
+.headings {
+    text-decoration: underline;
+    margin: 30px auto;
+}
+
+.section-1 .left-sec div {
+    box-shadow: 0 0 2px 0 rgb(167, 165, 165);
+    padding: 4px;
+    margin: 5px auto;
+}
+
+.section-1 .left-sec .language ul li, .profile ul li {
+    list-style: circle;
+}
+
+.section-1 .right-sec {
+    width: 70%;
+    float: right;
+    padding: 6% 5%;
+    box-shadow: 0 0 5px 0 rgb(167, 165, 165);
+    background-color: rgb(247, 245, 245);
+}
+
+.section-1 .right-sec .skill ul li {
+    list-style: circle;
+    font-weight: 600;
+}
+
+.section-1 .right-sec .objective, .skill, .edu {
+    box-shadow: 0 0 2px 0 rgb(167, 165, 165);
+    padding: 4px;
+    margin: 5px auto;
+}
+
+.section-2 {
+    width: 100%;
+    margin: 90% auto;
+    background-color: rgb(247, 245, 245);
+    padding: 6% 0% 2%;
+    box-shadow: 0 0 5px 0 rgb(204, 202, 202);
+}
+
+.section-2 h1 {
+    text-align: center;
+}
+
+.section-2 form {
+    padding: 2% 10%;
+}
+
+.section-2 form .lbltext {
+    width: 40%;
+    font-size: 1.3rem;
+}
+
+.section-2 form .fldbox {
+    width: 50%;
+    height: 40px;
+    margin: 15px auto;
+    font-size: 1.3rem;
+}
+
+
+.submit:hover {
+    background-color: white;
+}
